@@ -51,7 +51,7 @@
                                 <div class="thumb-personal-info">
                                     <div class="teamper-titel">
                                         <h5>АСАН МАЖИТ</h5>
-                                        <span>Алғадай</span>
+                                        <span>Ораз Жандосов</span>
                                     </div>
                                     <div class="team-social">
                                         <ul>
@@ -98,7 +98,7 @@
                                 <div class="thumb-personal-info">
                                     <div class="teamper-titel">
                                         <h5>ДАРХАН СУЛЕЙМЕНОВ</h5>
-                                        <span>Актёр</span>
+                                        <span>Алгадай - сын Жамбыла</span>
                                     </div>
                                     <div class="team-social">
                                         <ul>
