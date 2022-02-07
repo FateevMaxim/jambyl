@@ -112,7 +112,7 @@
                                         <p>Телефон: <a href="tel:+77475264140">+77475264140</a></p>
                                     </li>
                                     <li>
-                                        <p>What's App: <a href="https://api.whatsapp.com/send?phone=77773429834"></a>Написать</p>
+                                        <p>What's App: <a href="https://api.whatsapp.com/send?phone=77773429834">Написать</a></p>
                                     </li>
                                     <li>
                                         <p>E-mail: demo@example.com</p>
@@ -132,7 +132,7 @@
                 <div class="col-md-12">
                     <div class="footer-bottom">
                         <div class="footer-left">
-                            <p>© 2022 <b class="text-white">Jabmil</b> Made by <a href="https://redlines.tech/" target="_blank"><b>RedLines</b></a></p>
+                            <p>© 2022 <b class="text-white">Jabmyl</b> Made by <a href="https://redlines.tech/" target="_blank"><b>RedLines</b></a></p>
                         </div>
                         <div class="footer-right-social f-right">
                             <ul>
