@@ -714,7 +714,7 @@ ul.gallery-menu li.active,ul.gallery-menu li:hover{color:#e2a750;}
 .team-area-main .slick-arrow i{transition:.4s;}
 .team-area-main .slick-arrow i:hover {color:#e2a750;}
 .team-area-main .slider-nav {
-  bottom: 38px;
+  bottom: 0px;
   display: block;
   float: left;
   overflow: hidden;

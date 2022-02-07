@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('includes.main');
-});
-Route::get('/about', function () {
-    return view('includes.about');
-});
+Route::get('/', [Controllers\MainController::class, 'index']);
