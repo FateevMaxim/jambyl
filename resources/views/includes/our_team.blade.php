@@ -29,12 +29,12 @@
                                         <h5>{{ $actor->name }}</h5>
                                         <span>{{ $actor->role }}</span>
                                     </div>
-                                    <div class="team-social">
+                                    {{--<div class="team-social">
                                         <ul>
                                             <li><a href="#"><i class="icofont icofont-facebook"></i></a></li>
                                             <li><a href="#"><i class="icofont icofont-instagram"></i></a></li>
                                         </ul>
-                                    </div>
+                                    </div>--}}
                                     <p><b>{{ $actor->name }}</b><br>
                                         {{ $actor->short_desc }}
                                     </p>
