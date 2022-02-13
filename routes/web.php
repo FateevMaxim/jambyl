@@ -14,8 +14,6 @@ use App\Http\Controllers\AdminController;
 |
 */
 Route::localized(function () {
-
-
     Route::get('/', [MainController::class, 'index']);
 
     Route::get('/dashboard', function () {
@@ -24,5 +22,7 @@ Route::localized(function () {
 
     Route::resource('admin', AdminController::class);
 });
+
+
 
 require __DIR__ . '/auth.php';
