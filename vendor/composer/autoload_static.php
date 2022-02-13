@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
 {
     public static $files = array (
+        'fe533a4148c056317a42c4c5bceea7fa' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/helpers.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -35,8 +36,8 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
+        'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -128,6 +129,7 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Sanctum\\' => 16,
             'Laravel\\Sail\\' => 13,
+            'Laravel\\Breeze\\' => 15,
         ),
         'I' => 
         array (
@@ -168,6 +170,10 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'C' => 
         array (
             'Cron\\' => 5,
+            'ComposerIncludeFiles\\' => 21,
+            'CodeZero\\Localizer\\' => 19,
+            'CodeZero\\LocalizedRoutes\\' => 25,
+            'CodeZero\\BrowserLocale\\' => 23,
             'Carbon\\' => 7,
         ),
         'B' => 
@@ -177,6 +183,7 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         ),
         'A' => 
         array (
+            'Astrotomic\\Translatable\\' => 24,
             'Asm89\\Stack\\' => 12,
             'App\\' => 4,
         ),
@@ -410,6 +417,10 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
         ),
+        'Laravel\\Breeze\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/breeze/src',
+        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Macroable',
@@ -499,6 +510,22 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+        'ComposerIncludeFiles\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/0.0.0/composer-include-files/src',
+        ),
+        'CodeZero\\Localizer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codezero/laravel-localizer/src',
+        ),
+        'CodeZero\\LocalizedRoutes\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src',
+        ),
+        'CodeZero\\BrowserLocale\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codezero/browser-locale/src',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
@@ -510,6 +537,10 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'Barryvdh\\Debugbar\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src',
+        ),
+        'Astrotomic\\Translatable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable',
         ),
         'Asm89\\Stack\\' => 
         array (
@@ -535,6 +566,7 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\MainController' => __DIR__ . '/../..' . '/app/Http/Controllers/MainController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -544,6 +576,8 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Actors' => __DIR__ . '/../..' . '/app/Models/Actors.php',
+        'App\\Models\\ActorsTranslations' => __DIR__ . '/../..' . '/app/Models/ActorsTranslations.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
@@ -552,6 +586,14 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
+        'Astrotomic\\Translatable\\Contracts\\Translatable' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Contracts/Translatable.php',
+        'Astrotomic\\Translatable\\Exception\\LocalesNotDefinedException' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Exception/LocalesNotDefinedException.php',
+        'Astrotomic\\Translatable\\Locales' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Locales.php',
+        'Astrotomic\\Translatable\\Traits\\Relationship' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Traits/Relationship.php',
+        'Astrotomic\\Translatable\\Traits\\Scopes' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Traits/Scopes.php',
+        'Astrotomic\\Translatable\\Translatable' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Translatable.php',
+        'Astrotomic\\Translatable\\TranslatableServiceProvider' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/TranslatableServiceProvider.php',
+        'Astrotomic\\Translatable\\Validation\\RuleFactory' => __DIR__ . '/..' . '/astrotomic/laravel-translatable/src/Translatable/Validation/RuleFactory.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Barryvdh\\Debugbar\\Console\\ClearCommand' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Console/ClearCommand.php',
         'Barryvdh\\Debugbar\\Controllers\\AssetController' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Controllers/AssetController.php',
@@ -687,6 +729,44 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'Carbon\\Traits\\Week' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Week.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Carbon\\TranslatorStrongTypeInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorStrongTypeInterface.php',
+        'CodeZero\\BrowserLocale\\BrowserLocale' => __DIR__ . '/..' . '/codezero/browser-locale/src/BrowserLocale.php',
+        'CodeZero\\BrowserLocale\\Filters\\CombinedFilter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/CombinedFilter.php',
+        'CodeZero\\BrowserLocale\\Filters\\CountryFilter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/CountryFilter.php',
+        'CodeZero\\BrowserLocale\\Filters\\Filter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/Filter.php',
+        'CodeZero\\BrowserLocale\\Filters\\LanguageFilter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/LanguageFilter.php',
+        'CodeZero\\BrowserLocale\\Filters\\LocaleFilter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/LocaleFilter.php',
+        'CodeZero\\BrowserLocale\\Filters\\PropertyFilter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/PropertyFilter.php',
+        'CodeZero\\BrowserLocale\\Filters\\WeightFilter' => __DIR__ . '/..' . '/codezero/browser-locale/src/Filters/WeightFilter.php',
+        'CodeZero\\BrowserLocale\\Laravel\\BrowserLocaleServiceProvider' => __DIR__ . '/..' . '/codezero/browser-locale/src/Laravel/BrowserLocaleServiceProvider.php',
+        'CodeZero\\BrowserLocale\\Locale' => __DIR__ . '/..' . '/codezero/browser-locale/src/Locale.php',
+        'CodeZero\\LocalizedRoutes\\Controller\\FallbackController' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Controller/FallbackController.php',
+        'CodeZero\\LocalizedRoutes\\LocaleHandler' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/LocaleHandler.php',
+        'CodeZero\\LocalizedRoutes\\LocalizedRoutesServiceProvider' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/LocalizedRoutesServiceProvider.php',
+        'CodeZero\\LocalizedRoutes\\LocalizedUrlGenerator' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/LocalizedUrlGenerator.php',
+        'CodeZero\\LocalizedRoutes\\Macros\\IsLocalizedMacro' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Macros/IsLocalizedMacro.php',
+        'CodeZero\\LocalizedRoutes\\Macros\\LocalizedHasMacro' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Macros/LocalizedHasMacro.php',
+        'CodeZero\\LocalizedRoutes\\Macros\\LocalizedRoutesMacro' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Macros/LocalizedRoutesMacro.php',
+        'CodeZero\\LocalizedRoutes\\Macros\\LocalizedUrlMacro' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Macros/LocalizedUrlMacro.php',
+        'CodeZero\\LocalizedRoutes\\Macros\\UriTranslationMacro' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Macros/UriTranslationMacro.php',
+        'CodeZero\\LocalizedRoutes\\Middleware\\SetLocale' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/Middleware/SetLocale.php',
+        'CodeZero\\LocalizedRoutes\\ProvidesRouteParameters' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/ProvidesRouteParameters.php',
+        'CodeZero\\LocalizedRoutes\\UrlBuilder' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/UrlBuilder.php',
+        'CodeZero\\LocalizedRoutes\\UrlGenerator' => __DIR__ . '/..' . '/codezero/laravel-localized-routes/src/UrlGenerator.php',
+        'CodeZero\\Localizer\\Detectors\\AppDetector' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Detectors/AppDetector.php',
+        'CodeZero\\Localizer\\Detectors\\BrowserDetector' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Detectors/BrowserDetector.php',
+        'CodeZero\\Localizer\\Detectors\\CookieDetector' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Detectors/CookieDetector.php',
+        'CodeZero\\Localizer\\Detectors\\Detector' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Detectors/Detector.php',
+        'CodeZero\\Localizer\\Detectors\\SessionDetector' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Detectors/SessionDetector.php',
+        'CodeZero\\Localizer\\Detectors\\UrlDetector' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Detectors/UrlDetector.php',
+        'CodeZero\\Localizer\\Localizer' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Localizer.php',
+        'CodeZero\\Localizer\\LocalizerServiceProvider' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/LocalizerServiceProvider.php',
+        'CodeZero\\Localizer\\Middleware\\SetLocale' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Middleware/SetLocale.php',
+        'CodeZero\\Localizer\\Stores\\AppStore' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Stores/AppStore.php',
+        'CodeZero\\Localizer\\Stores\\CookieStore' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Stores/CookieStore.php',
+        'CodeZero\\Localizer\\Stores\\SessionStore' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Stores/SessionStore.php',
+        'CodeZero\\Localizer\\Stores\\Store' => __DIR__ . '/..' . '/codezero/laravel-localizer/src/Stores/Store.php',
+        'ComposerIncludeFiles\\Composer\\AutoloadGenerator' => __DIR__ . '/..' . '/0.0.0/composer-include-files/src/Composer/AutoloadGenerator.php',
+        'ComposerIncludeFiles\\Plugin' => __DIR__ . '/..' . '/0.0.0/composer-include-files/src/Plugin.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -2776,6 +2856,11 @@ class ComposerStaticInit58be04bbbe6292de92e920d9a8103bb3
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'Laravel\\Breeze\\BreezeServiceProvider' => __DIR__ . '/..' . '/laravel/breeze/src/BreezeServiceProvider.php',
+        'Laravel\\Breeze\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallCommand.php',
+        'Laravel\\Breeze\\Console\\InstallsApiStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsApiStack.php',
+        'Laravel\\Breeze\\Console\\InstallsBladeStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsBladeStack.php',
+        'Laravel\\Breeze\\Console\\InstallsInertiaStacks' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsInertiaStacks.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
         'Laravel\\Sail\\SailServiceProvider' => __DIR__ . '/..' . '/laravel/sail/src/SailServiceProvider.php',

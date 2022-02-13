@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="section-titel text-left two">
                     <h2>АКТЁРЫ</h2>
-                    <p>Звёздеая команда Художественного фильма «Жамбыл. Новая эра»
+                    <p>Звёздеая команда Художественного фильма @lang('ProjectName')
                     </p>
                 </div>
             </div>
@@ -15,7 +15,6 @@
         <div class="team-area-main">
             <div class="row">
                 <div class="col-md-12">
-
 
                     <div class="slider slider-for">
                         <!-- Service Slider Single -->
@@ -45,7 +44,6 @@
                         @endforeach
                         <!-- Service Slider Single -->
                     </div>
-
 
                     <!-- Service Thumb Area Start -->
                     <div class="slider slider-nav">
