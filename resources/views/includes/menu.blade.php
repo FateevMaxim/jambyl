@@ -50,7 +50,13 @@
                                     <li><a href="#actors"> Актёры </a></li>
                                     <li><a href="#news"> Новости </a></li>
                                     <li><a href="#gallery"> Кадры </a></li>
-                                    <li><a href="#creators"> Создатели </a></li>м
+                                    <li><a href="#creators"> Создатели </a></li>
+                                    <li><a href="#">{{ str_replace('_', '-', app()->getLocale()) }}</a>
+                                        <ul>
+                                            <li><a href="/ru">RU</a></li>
+                                            <li><a href="/">KZ</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
