@@ -26,6 +26,7 @@
         <!-- Upcoming Campaign Area End -->
         <!-- About Us Area Start -->
        @include('includes.about_movie')
+       @include('includes.producers')
         <!-- About Us Area End -->
         <!-- Video popup area start -->
         <div class="video-popup-area bg-20 text-center" id="trailer">

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Actor;
+use App\Models\Produser;
 
 class MainController extends Controller
 {
@@ -11,7 +12,10 @@ class MainController extends Controller
         $data = Actor::withTranslation()
         ->translatedIn(app()->getLocale())
             ->get();
+        $producers = Produser::withTranslation()
+        ->translatedIn(app()->getLocale())
+            ->get();
 
-        return view('includes.main', compact('data', $data));
+        return view('includes.main', compact('data', 'producers'));
     }
 }
