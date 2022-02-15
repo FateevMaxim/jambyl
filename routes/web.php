@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ActorController;
+use App\Http\Controllers\NewslatterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,12 +17,17 @@ use App\Http\Controllers\AdminController;
 */
 Route::localized(function () {
     Route::get('/', [MainController::class, 'index']);
+    Route::get('/article/{id}', [MainController::class, 'getArticle']);
 
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->middleware(['auth'])->name('dashboard');
 
-    Route::resource('admin', AdminController::class);
+    Route::get('admin', [AdminController::class, 'index']);
+
+    Route::resource('actors', ActorController::class);
+    Route::resource('news', NewslatterController::class);
+
 });
 
 

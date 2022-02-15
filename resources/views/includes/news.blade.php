@@ -13,76 +13,24 @@
         <!-- Recent Upload Item Area Start -->
         <div class="main-section">
             <div class="news-campaign owl-carousel owl-theme">
+
+                @foreach($newslatters as $new)
                 <!-- News Single -->
                 <div class="recent-news-single">
                     <div class="news-thumbnail">
-                        <a href="#"><img src="{{ asset('img/home-actor/news/news1.jpg') }}" alt=""></a>
+                        <a href="/article/{{ $new->id }}"><img src="{{ asset('img/home-actor/news/'.$new->img) }}" alt=""></a>
                     </div>
                     <div class="news-content">
-                        <h4><a href="#">Начался процесс съёмок</a></h4>
+                        <h4><a href="/article/{{ $new->id }}">{{ $new->title }}</a></h4>
                         <div class="news-meta">
-                            <span>16 июля 2021</span>
-                            <span><a href="#"> Админ</a></span>
+                            <span>{{ $new->date }}</span>
+                            <span>{{ $new->source }}</span>
                         </div>
                     </div>
                 </div>
                 <!-- News Single -->
-                <!-- News Single -->
-                <div class="recent-news-single">
-                    <div class="news-thumbnail">
-                        <a href="#"><img src="{{ asset('img/home-actor/news/news2.jpg') }}" alt=""></a>
-                    </div>
-                    <div class="news-content">
-                        <h4><a href="#">Тем временем продолжается кастинг</a></h4>
-                        <div class="news-meta">
-                            <span>12 августа 2021</span>
-                            <span><a href="#"> Админ</a></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Single -->
-                <!-- News Single -->
-                <div class="recent-news-single">
-                    <div class="news-thumbnail">
-                        <a href="#"><img src="{{asset('img/home-actor/news/news3.jpg')}}" alt=""></a>
-                    </div>
-                    <div class="news-content">
-                        <h4><a href="#">Подбор костюмов и образов</a></h4>
-                        <div class="news-meta">
-                            <span>14 сентября 2021</span>
-                            <span><a href="#"> Админ</a></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Single -->
-                <!-- News Single -->
-                <div class="recent-news-single">
-                    <div class="news-thumbnail">
-                        <a href="#"><img src="{{ asset('img/home-actor/news/news1.jpg') }}" alt=""></a>
-                    </div>
-                    <div class="news-content">
-                        <h4><a href="#">Начался процесс съёмок</a></h4>
-                        <div class="news-meta">
-                            <span>16 июля 2021</span>
-                            <span><a href="#"> Админ</a></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Single -->
-                <!-- News Single -->
-                <div class="recent-news-single">
-                    <div class="news-thumbnail">
-                        <a href="#"><img src="{{ asset('img/home-actor/news/news2.jpg') }}" alt=""></a>
-                    </div>
-                    <div class="news-content">
-                        <h4><a href="#">Тем временем продолжается кастинг</a></h4>
-                        <div class="news-meta">
-                            <span>12 августа 2021</span>
-                            <span><a href="#"> Админ</a></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Single -->
+                    @endforeach
+
             </div>
         </div>
         <!-- Recent Upload Item Area End -->

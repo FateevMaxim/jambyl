@@ -51,7 +51,8 @@
                         <div class="main-menu text-right">
                             <nav>
                                 <ul>
-                                    <li class="active"><a href="{{ route('admin.create') }}">Добавить актёра</a></li>
+                                    <li class="active"><a href="{{ route('actors.create') }}">Добавить актёра</a></li>
+                                    <li class="active"><a href="{{ route('news.create') }}">Добавить статью</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -68,7 +69,8 @@
                                 <div class="mobile-menu">
                                     <nav id="mobile-nav">
                                         <ul>
-                                            <li class="active"><a href="{{ route('admin.create') }}">Добавить актёра</a></li>
+                                            <li class="active"><a href="{{ route('actors.create') }}">Добавить актёра</a></li>
+                                            <li class="active"><a href="{{ route('news.create') }}">Добавить статью</a></li>
                                         </ul>
                                     </nav>
                                 </div>

@@ -5,7 +5,7 @@
 
         <h2 class="header"> Добавление дового актёра</h2>
 
-        <form method="post" action="{{ route('admin.store') }}" class="m-5 p-3 shadow">
+        <form method="post" action="{{ route('actors.store') }}" class="m-5 p-3 shadow">
     @foreach (config('translatable.locales') as $locale)
 
         @csrf
