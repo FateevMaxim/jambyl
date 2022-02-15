@@ -41,9 +41,6 @@
                     <!-- Service Details Left Sidebar Start -->
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="service-details-content">
-                            <div class="serv-image mb-40">
-                                <img src="{{ asset('img/home-actor/news/'.$new->img) }}" alt="{{ $new->title }}">
-                            </div>
                             <div class="blog-content">
                                 <h2>{{ $new->title }}</h2>
                                 <div class="blog-date-categori">
