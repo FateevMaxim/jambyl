@@ -4,7 +4,7 @@
             <!-- Logo Area Start -->
             <div class="col-lg-4 col-md-12 col-sm-12">
                 <div class="logo-img">
-                    <a href="/"><img src="img/home-one/icon/logo.png" alt=""></a>
+                    <a href="/"><img src="{{ asset('img/home-one/icon/logo'.app()->getLocale().'.png') }}" alt=""></a>
                 </div>
             </div>
             <!-- Logo Area End -->
