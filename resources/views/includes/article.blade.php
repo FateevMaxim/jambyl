@@ -21,7 +21,7 @@
                             <h1>{{ $new->title }}</h1>
                             <ul>
                                 <li><a href="/">Главная <span>/</span></a></li>
-                                <li>Статья: {{ $new->source }}</li>
+                                <li>Статья: <a href="{{ $new->source_link }}" target="_blank">{{ $new->source }}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                                 <div class="blog-date-categori">
                                     <ul>
                                         <li>{{ $new->date }} </li>
-                                        <li>{{ $new->source }}</li>
+                                        <li><a href="{{ $new->source_link }}" target="_blank">{{ $new->source }}</a></li>
                                     </ul>
                                 </div>
                             </div>

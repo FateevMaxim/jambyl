@@ -50,6 +50,19 @@
         @include('includes.gallery')
         <!-- Gallery Area End -->
         <!-- Campaign Count Area Start -->
+        <!-- Client/Brand Area Strat -->
+        <section class="client-area">
+            <div class="container">
+                <div class="brand-logo-carousel-2 pb-110 text-center">
+                    <div class="brand-logo-item col"><img src="img/clients/logo01.png" alt="Фонд поддержки культуры и творческих инициатив"></div>
+                    <div class="brand-logo-item col"><a href="https://www.sk-trust.kz/ru" target="_blank"><img src="img/clients/logo02.png" alt="самрук казына траст"></a></div>
+                    <div class="brand-logo-item col"><a href="https://www.gov.kz/memleket/entities/mcs?lang=ru" target="_blank"><img src="img/clients/logo03.png" alt="Министерства Культуры и Спорта"></a></div>
+                    <div class="brand-logo-item col"><a href="https://kazakhcinema.kz/" target="_blank"><img src="img/clients/logo04.png" alt="Kazakh Cinema"></a></div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Client/Brand Area End -->
     {{--<section class="campaign-count pb-80">
         <div class="container">
             <div class="row">

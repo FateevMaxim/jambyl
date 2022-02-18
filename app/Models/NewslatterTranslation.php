@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class NewslatterTranslation extends Model
 {
-    protected $fillable = ['title', 'text', 'date', 'img', 'source'];
+    protected $fillable = ['title', 'text', 'date', 'img', 'source', 'source_link'];
     public $timestamps = false;
-    public $translatedAttributes = ['title', 'text', 'date', 'img', 'source'];
+    public $translatedAttributes = ['title', 'text', 'date', 'img', 'source', 'source_link'];
 }

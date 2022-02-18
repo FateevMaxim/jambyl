@@ -12,5 +12,5 @@ class Newslatter extends Model implements TranslatableContract
     use HasFactory, Translatable;
 
     protected $guarded = ['id'];
-    public $translatedAttributes = ['title', 'text', 'date', 'img', 'source'];
+    public $translatedAttributes = ['title', 'text', 'date', 'img', 'source', 'source_link'];
 }

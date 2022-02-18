@@ -12,11 +12,15 @@
                 <h4>Данные для {{strtoupper($locale)}} языка</h4>
                 <div class="mb-3">
                     <label for="source" class="form-label">Источник</label>
-                    <input type="text" name="{{ $locale }}[source]" class="form-control" id="actorsName">
+                    <input type="text" name="{{ $locale }}[source]" class="form-control" id="source">
+                </div>
+                <div class="mb-3">
+                    <label for="source_link" class="form-label">Источник</label>
+                    <input type="text" name="{{ $locale }}[source_link]" class="form-control" id="source_link">
                 </div>
                 <div class="mb-3">
                     <label for="title" class="form-label">Заголовок</label>
-                    <input type="text" name="{{ $locale }}[title]" class="form-control" id="actorsName">
+                    <input type="text" name="{{ $locale }}[title]" class="form-control" id="title">
                 </div>
                 <div class="mb-3">
                     <label for="text" class="form-label">Статья</label>

@@ -24,7 +24,7 @@
                         <h4><a href="/article/{{ $new->id }}">{{ $new->title }}</a></h4>
                         <div class="news-meta">
                             <span>{{ $new->date }}</span>
-                            <span>{{ $new->source }}</span>
+                            <span><a href="{{ $new->source_link }}" target="_blank">{{ $new->source }}</a></span>
                         </div>
                     </div>
                 </div>
