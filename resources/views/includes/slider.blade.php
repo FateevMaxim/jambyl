@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="slide-content cam_sldr_left col-md-6">
                         <h2>«Фонд поддержки культуры и творческих инициатив»</h2>
-                        <h1>Здесь у нас будет <span>слоган...</span></h1>
+                        {{--<h1>Здесь у нас будет <span>слоган...</span></h1>--}}
                         <p>В возрасте 90 лет Жамбыл Жабаев участвует во Втором слете творческих людей и занимает первое место среди поэтов</p>
                         {{--<div class="slide-btn">
                             <a class="read-more" href="#" target="_blank">Learn More<img src="img/other/readmore-icon.png" alt=""></a>
@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="slide-content cam_sldr_left col-md-6">
                         <h2>«Фонд поддержки культуры и творческих инициатив»</h2>
-                        <h1>А здесь второй <span>слоган...</span></h1>
+                        {{--<h1>А здесь второй <span>слоган...</span></h1>--}}
                         <p>Жамбыла решают назначить главным поэтом на декаде искусства и литературы Казахстана в Москве в 1936 году</p>
                         {{--<div class="slide-btn">
                             <a class="read-more" href="#" target="_blank">Learn More<img src="img/other/readmore-icon.png" alt=""></a>
@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="slide-content cam_sldr_left col-md-6">
                         <h2>«Фонд поддержки культуры и творческих инициатив»</h2>
-                        <h1>Ну и на последок <span>третий...</span></h1>
+                        {{--<h1>Ну и на последок <span>третий...</span></h1>--}}
                         <p>Жамбыл на тот период стал опорой казахской интеллигенции.</p>
                         {{--<div class="slide-btn">
                             <a class="read-more" href="#" target="_blank">Learn More<img src="img/other/readmore-icon.png" alt=""></a>
