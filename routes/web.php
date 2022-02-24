@@ -5,6 +5,7 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ActorController;
 use App\Http\Controllers\NewslatterController;
+use App\Http\Controllers\CastingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +28,7 @@ Route::localized(function () {
 
     Route::resource('actors', ActorController::class);
     Route::resource('news', NewslatterController::class);
+    Route::resource('casting', CastingController::class);
 
 });
 

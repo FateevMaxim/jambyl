@@ -14,7 +14,7 @@
                     <nav>
                         <ul>
                             <li class="active"><a href="/">Главная</a></li>
-                            <li><a href="/">Фонд</a></li>
+                            <li><a href="{{ route('casting.index') }}">@lang('Кастинг')</a></li>
                             <li><a href="#aboutMovie"> О фильме </a></li>
                             <li><a href="#trailer"> Трейлер </a></li>
                             <li><a href="#actors"> Актёры </a></li>
@@ -44,7 +44,7 @@
                             <nav id="mobile-nav">
                                 <ul>
                                     <li class="active"><a href="/">Главная</a></li>
-                                    <li><a href="/">Фонд</a></li>
+                                    <li><a href="{{ route('casting.index') }}">@lang('Кастинг')</a></li>
                                     <li><a href="#aboutMovie"> О фильме </a></li>
                                     <li><a href="#trailer"> Трейлер </a></li>
                                     <li><a href="#actors"> Актёры </a></li>
