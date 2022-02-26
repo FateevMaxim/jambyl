@@ -105,7 +105,7 @@ class CastingController extends Controller
            'mass' => $request->mass,
            'path' => $insert
        ];
-        Mail::to('fateev.maxim@gmail.com')->send(new CastingMail($data));
+        Mail::to('casting.jambyl@gmail.com')->send(new CastingMail($data));
 
         foreach ($data['path'] as $file){
             Storage::delete($file['path']);
