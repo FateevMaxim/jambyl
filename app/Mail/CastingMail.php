@@ -32,8 +32,8 @@ class CastingMail extends Mailable
     public function build()
     {
         return $this->view('email')
-            ->subject('Subject')
-            ->from('system@jambylfilm.kz', 'System')
+            ->subject('Анткета на кастинг Жамбыл')
+            ->from('system@jambylfilm.kz', $this->data['childName'])
             ->with('data', $this->data);
     }
 }
