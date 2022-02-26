@@ -41,9 +41,15 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="service-details-content">
                             <div class="blog-content">
+                                @if(session('status'))
+                                    <div class="alert alert-success">
+                                        {{ session('status') }}
+                                    </div>
+                                @endif
                                 <h2>@lang('Проведение кастинга по кинопроекту «Жамбыл. Новая Эра»')</h2>
                                 @lang('Casting')
-                                <form action="">
+                                <form action="{{ route('casting.store') }}" method="post" enctype="multipart/form-data">
+                                    @csrf
                                 <div class="col-lg-12">
                                     <div class="row">
 
@@ -171,14 +177,14 @@
                                                            class="form-label">@lang('Готовы ли Вы принимать участие в  эпизодах?')</label>
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="episode"
-                                                               id="episode1" value="yes">
+                                                               id="episode1" value="Да">
                                                         <label class="form-check-label" for="episode1">
                                                             @lang('Да')
                                                         </label>
                                                     </div>
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="episode"
-                                                               id="episode2" value="no" checked>
+                                                               id="episode2" value="Нет" checked>
                                                         <label class="form-check-label" for="episode2">
                                                             @lang('Нет')
                                                         </label>
@@ -190,7 +196,7 @@
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="mass"
                                                                id="mass1"
-                                                               value="yes">
+                                                               value="Да">
                                                         <label class="form-check-label" for="mass1">
                                                             @lang('Да')
                                                         </label>
@@ -198,12 +204,19 @@
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="mass"
                                                                id="mass2"
-                                                               value="no" checked>
+                                                               value="Нет" checked>
                                                         <label class="form-check-label" for="mass2">
                                                             @lang('Нет')
                                                         </label>
                                                     </div>
                                                 </div>
+                                                <div class="mb-3">
+                                                        <span class="input-group-text" id="inputGroupFileAddon01">@lang('Фотографии')</span>
+                                                        <input type="file" id="pics" name="pics[]" multiple="multiple">
+                                                </div>
+                                                @error('pics')
+                                                <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                                                @enderror
                                             </div>
                                             <button type="submit" class="btn btn-primary mb-3">Отправить заявку</button>
 
@@ -223,4 +236,25 @@
 </div>
 <!-- Page Wraper Here Start -->
 
+
+@endsection
+@section('scripts')
+    {{--<script>
+        // Get a reference to the file input element
+        const inputElement = document.querySelector('input[id="pics"]');
+
+        // Create a FilePond instance
+        const pond = FilePond.create(inputElement, {
+            multiple: true
+        });
+        FilePond.setOptions({
+            server: {
+                allowMultiple: true,
+              url: '/upload',
+                headers: {
+                  'X-CSRF-TOKEN' : '{{ csrf_token() }}'
+                }
+            },
+        });
+    </script>--}}
 @endsection

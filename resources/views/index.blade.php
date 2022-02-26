@@ -27,7 +27,7 @@
     <link href="{{ asset('assets/revolution/css/settings.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/revolution/css/navigation.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/revolution/custom-setting.css') }}" rel="stylesheet">
-
+    <link href="https://unpkg.com/filepond@^4/dist/filepond.css" rel="stylesheet" />
     <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
 </head>
 <body>
@@ -55,5 +55,7 @@
 <script type="text/javascript" src="{{ asset('assets/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+<script src="https://unpkg.com/filepond@^4/dist/filepond.js"></script>
+@yield('scripts')
 </body>
 </html>
