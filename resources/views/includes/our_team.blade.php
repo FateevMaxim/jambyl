@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="section-titel text-left two">
                     <h2>АКТЁРЫ</h2>
-                    <p>Звёздеая команда Художественного фильма @lang('ProjectName')
+                    <p>Звёздная команда Художественного фильма @lang('ProjectName')
                     </p>
                 </div>
             </div>
