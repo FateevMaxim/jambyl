@@ -15,8 +15,8 @@
                     </div>
                     <div class="col-md-6 slide-content sldr_counter_content">
                         <h2> <span class="sld_border_shap">@lang('ProjectName')</span> </h2>
-                        <h1>До премьеры</h1>
-                        <div class="slider_countdown_wapper" data-countdown="2022/03/12"></div>
+                        {{--<h1>До премьеры</h1>
+                        <div class="slider_countdown_wapper" data-countdown="2022/03/12"></div>--}}
                         <ul class="slider-social-production">
                             <li><a href="https://www.instagram.com/jambyljabaev175/" target="_blank">INSTAGRAM</a></li>
                             <li><a href="#">YOUTUBE</a></li>
@@ -39,8 +39,8 @@
                     </div>
                     <div class="col-md-6 slide-content sldr_counter_content">
                         <h2> <span class="sld_border_shap">@lang('ProjectName')</span> </h2>
-                        <h1>До премьеры</h1>
-                        <div class="slider_countdown_wapper" data-countdown="2022/03/12"></div>
+                        {{--<h1>До премьеры</h1>
+                        <div class="slider_countdown_wapper" data-countdown="2022/03/12"></div>--}}
                         <ul class="slider-social-production">
                             <li><a href="https://www.instagram.com/jambyljabaev175/" target="_blank">INSTAGRAM</a></li>
                             <li><a href="#">YOUTUBE</a></li>
@@ -63,8 +63,8 @@
                     </div>
                     <div class="col-md-6 slide-content sldr_counter_content">
                         <h2> <span class="sld_border_shap">@lang('ProjectName')</span> </h2>
-                        <h1>До премьеры</h1>
-                        <div class="slider_countdown_wapper" data-countdown="2022/03/12"></div>
+                        {{--<h1>До премьеры</h1>
+                        <div class="slider_countdown_wapper" data-countdown="2022/03/12"></div>--}}
                         <ul class="slider-social-production">
                             <li><a href="https://www.instagram.com/jambyljabaev175/" target="_blank">INSTAGRAM</a></li>
                             <li><a href="#">YOUTUBE</a></li>

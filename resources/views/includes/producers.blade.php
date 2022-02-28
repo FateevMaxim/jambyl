@@ -1,4 +1,4 @@
-<section class="ourteam-area pb-100" id="actors">
+<section class="ourteam-area pb-100" id="creators">
     <div class="container">
         <div class="row">
             <!-- Section Titel -->

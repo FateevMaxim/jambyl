@@ -15,10 +15,10 @@
                 <div class="pstr_box">
                     <div class="pstr_image">
                         <img src="{{ asset('img/other/main_about.jpg') }}" alt="">
-                        <h3 class="pstr_title">Премьера</h3>
-                        <div class="pstr_date">13 <span>Марта</span></div>
+                       {{-- <h3 class="pstr_title">Премьера</h3>
+                        <div class="pstr_date">13 <span>Марта</span></div>--}}
                     </div>
-                    <div class="pstr_content">
+                    {{--<div class="pstr_content">
                         <ul class="pstr_rating">
                             <li><i class="ratclr fa fa-star"></i></li>
                             <li><i class="ratclr fa fa-star"></i></li>
@@ -27,7 +27,7 @@
                             <li><i class="fa fa-star"></i></li>
                         </ul>
                         <span class="rading_ratio">8.5/10</span>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>

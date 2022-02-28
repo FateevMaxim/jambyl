@@ -48,6 +48,9 @@
                                 @endif
                                 <h2>@lang('Проведение кастинга по кинопроекту «Жамбыл. Новая Эра»')</h2>
                                 @lang('Casting')
+                                    <p>
+                                        <span><strong>Контактный телефон кастинг директора: </strong><a href="tel:87760549989">8 776 054 9989</a></span>
+                                    </p>
                                 <form action="{{ route('casting.store') }}" method="post" enctype="multipart/form-data">
                                     @csrf
                                 <div class="col-lg-12">

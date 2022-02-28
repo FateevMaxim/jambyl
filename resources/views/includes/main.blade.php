@@ -32,10 +32,10 @@
         <div class="video-popup-area bg-20 text-center" id="trailer">
             <div class="video-popup-video">
                 <div class="video-popupcontent">
-                    <a href="www.youtube.com/watch?v=8onrhyeCSCI" class="popup-youtube">
+                    <a class="popup-youtube">
                         <img src="{{ asset('img/other/video-button.png') }}" alt="">
                     </a>
-                    <h4>ПОСМОТРЕТЬ ТРЕЙЛЕР</h4>
+                    <h4>Скоро здесь появится трейлер</h4>
                 </div>
             </div>
         </div>
@@ -54,9 +54,9 @@
         <section class="client-area">
             <div class="container">
                 <div class="brand-logo-carousel-2 pb-110 text-center">
-                    <div class="brand-logo-item col"><img src="img/clients/logo01.png" alt="Фонд поддержки культуры и творческих инициатив"></div>
-                    <div class="brand-logo-item col"><a href="https://www.gov.kz/memleket/entities/mcs?lang=ru" target="_blank"><img src="img/clients/logo03.png" alt="Министерства Культуры и Спорта"></a></div>
-                    <div class="brand-logo-item col"><a href="https://kazakhcinema.kz/" target="_blank"><img src="img/clients/logo04.png" alt="Kazakh Cinema"></a></div>
+                    <div class="brand-logo-item col"><img src="{{asset('img/clients/logo01.png')}}" alt="Фонд поддержки культуры и творческих инициатив"></div>
+                    <div class="brand-logo-item col"><a href="https://www.gov.kz/memleket/entities/mcs?lang=ru" target="_blank"><img src="{{ asset('img/clients/logo03.png') }}" alt="Министерства Культуры и Спорта"></a></div>
+                    <div class="brand-logo-item col"><a href="https://kazakhcinema.kz/" target="_blank"><img src="{{ asset('img/clients/logo04.png') }}" alt="Kazakh Cinema"></a></div>
 
                 </div>
             </div>
