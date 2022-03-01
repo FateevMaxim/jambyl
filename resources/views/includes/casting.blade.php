@@ -60,60 +60,60 @@
                                                 <div class="mb-3">
                                                     <label for="city"
                                                            class="form-label">@lang('Город проживания')</label>
-                                                    <input type="text" class="form-control" name="city" id="city">
+                                                    <input type="text" class="form-control" name="city" id="city" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="childName"
                                                            class="form-label">@lang('ФИО ребенка')</label>
                                                     <input type="text" class="form-control" name="childName"
-                                                           id="childName">
+                                                           id="childName" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="dateOfBirth"
                                                            class="form-label">@lang('Год рождения')</label>
                                                     <input type="date" class="form-control" name="dateOfBirth"
-                                                           id="dateOfBirth">
+                                                           id="dateOfBirth" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="parentName"
                                                            class="form-label">@lang('ФИО родителей')</label>
                                                     <input type="text" class="form-control" name="parentName"
-                                                           id="parentName">
+                                                           id="parentName" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="height" class="form-label">@lang('Рост')</label>
-                                                    <input type="number" class="form-control" name="height" id="height">
+                                                    <input type="number" class="form-control" name="height" id="height" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="weight" class="form-label">@lang('Вес')</label>
-                                                    <input type="number" class="form-control" name="weight" id="weight">
+                                                    <input type="number" class="form-control" name="weight" id="weight" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="education"
                                                            class="form-label">@lang('Образование')</label>
                                                     <input type="text" class="form-control" name="education"
-                                                           id="education">
+                                                           id="education" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="nation"
                                                            class="form-label">@lang('Национальность')</label>
-                                                    <input type="text" class="form-control" name="nation" id="nation">
+                                                    <input type="text" class="form-control" name="nation" id="nation" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="clothesSize"
                                                            class="form-label">@lang('Размер одежды')</label>
                                                     <input type="text" class="form-control" name="clothesSize"
-                                                           id="clothesSize">
+                                                           id="clothesSize" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="bootsSize"
                                                            class="form-label">@lang('Размер обуви')</label>
                                                     <input type="text" class="form-control" name="bootsSize"
-                                                           id="bootsSize">
+                                                           id="bootsSize" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="langs" class="form-label">@lang('Знание языков')</label>
-                                                    <input type="text" class="form-control" name="langs" id="langs">
+                                                    <input type="text" class="form-control" name="langs" id="langs" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="musicSkills"
@@ -145,7 +145,7 @@
                                                     <label for="mobilePhone"
                                                            class="form-label">@lang('Мобильный телефон')</label>
                                                     <input type="tel" class="form-control" name="mobilePhone"
-                                                           id="mobilePhone">
+                                                           id="mobilePhone" required>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="homePhone"
