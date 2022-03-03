@@ -24,10 +24,7 @@
                                     <p>Адрес:  Мауленова, д.93</p>
                                 </li>
                                 <li>
-                                    <p>Телефон: <a href="tel:+77475264140">+77475264140</a></p>
-                                </li>
-                                <li>
-                                    <p>What's App: <a href="https://api.whatsapp.com/send?phone=77773429834">Написать</a></p>
+                                    <p>Телефон: <a href="tel:+77760549989">+7 776 054 9989</a></p>
                                 </li>
                                 <li>
                                     <p>E-mail: <a href="mailto:casting.jambyl@gmail.com">casting.jambyl@gmail.com</a></p>
