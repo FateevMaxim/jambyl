@@ -27,13 +27,14 @@ class CastingMail extends Mailable
     /**
      * Build the message.
      *
-     * @return $this
+     * @return $thishelloWorld.doc
      */
     public function build()
     {
         return $this->view('email')
             ->subject('Анткета на кастинг Жамбыл')
             ->from('system@jambylfilm.kz', $this->data['childName'])
+            ->attach(storage_path().'/'.$this->data['childName'].'.docx' )
             ->with('data', $this->data);
     }
 }

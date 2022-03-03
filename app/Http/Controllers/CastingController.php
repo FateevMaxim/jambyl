@@ -7,6 +7,8 @@ use App\Models\Casting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
+use function Symfony\Component\String\toString;
+
 class CastingController extends Controller
 {
     /**
@@ -105,13 +107,54 @@ class CastingController extends Controller
            'mass' => $request->mass,
            'path' => $insert
        ];
+
+        $phpWord = new \PhpOffice\PhpWord\PhpWord();
+
+
+        $section = $phpWord->addSection();
+
+        $description = "
+            Новая анкеты с сайта <w:br/>
+            Город проживания: ". $data['city']." <w:br/>
+            ФИО ребенка: ".$data['childName']." <w:br/>
+            Год рождения: ".$data['dateOfBirth']."<w:br/>
+            ФИО родителей:  ".$data['parentName']." <w:br/>
+            Рост:  ".$data['height']." <w:br/>
+            Вес: ".$data['weight']." <w:br/>
+            Образование: ".$data['education']." <w:br/>
+            Национальность: ".$data['nation']." <w:br/>
+            Размер одежды:  ".$data['clothesSize']." <w:br/>
+            Размер обуви:  ".$data['bootsSize']." <w:br/>
+            Знание языков: ".$data['langs']." <w:br/>
+            Музыкальные навыки:  ".$data['musicSkills']." <w:br/>
+            Танцевальные навыки: ".$data['danceSkills']." <w:br/>
+            Какой вид спорта:  ".$data['sports']." <w:br/>
+            Умеете скакать на лошади:  ".$data['horseRiding']." <w:br/>
+            Мобильный телефон: ".$data['mobilePhone']." <w:br/>
+            Домашний телефон:  ".$data['homePhone']." <w:br/>
+            Контакты родителей: ".$data['parentPhone']." <w:br/>
+            Е-mail:  ".$data['email']." <w:br/>
+            Логин INSTAGRAM:  ".$data['insta']."<w:br/>
+            В прошлом принимали ли Вы участие в съемках рекламы, клипов или кино?( уточните ): ".$data['experience']." <w:br/>
+            Готовы ли Вы принимать участие в  эпизодах?: ".$data['episode']." <w:br/>
+            Готовы ли Вы принимать участие в массовке?: ".$data['mass']." <w:br/>";
+
+
+        $section->addText($description);
+        $objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+        try {
+            $objWriter->save(storage_path($data['childName'].'.docx'));
+        } catch (Exception $e) {
+        }
+
         Mail::to('casting.jambyl@gmail.com')->send(new CastingMail($data));
 
         foreach ($data['path'] as $file){
             Storage::delete($file['path']);
+
            // unlink(storage_path() . '/app/' .$file['path']);
         }
-
+        Storage::delete(storage_path($data['childName'].'.docx'));
         return redirect('casting')->with('status', 'Загрузка анкеты прошла успешно!');
     }
 
