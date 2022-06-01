@@ -18,6 +18,7 @@ class MainController extends Controller
             ->get();
         $newslatters = Newslatter::withTranslation()
         ->translatedIn(app()->getLocale())
+            ->orderBy('id', 'DESC')
             ->get();
 
         return view('includes.main', compact('data', 'producers', 'newslatters'));
