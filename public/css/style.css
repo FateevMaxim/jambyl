@@ -169,6 +169,11 @@
 .section-titel.two h2,.section-titel.two p {color: #fff;}
 .ourteam-area .section-titel.two h2,.ourteam-area .section-titel.two p {color: #555555;}
 
+
+.blog-content li {
+  display: block;
+}
+
 /* ============= 4. Trailer Area ============= */
 .trailer-single {box-shadow: 0 1px 1px #ddd;margin-bottom: 2px;}
 .trailer-titel h5 {

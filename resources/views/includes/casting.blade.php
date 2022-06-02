@@ -51,9 +51,291 @@
                                     <p>
                                         <span><strong>Контактный телефон кастинг директора: </strong><a href="tel:+77760549989">8 776 054 9989</a></span>
                                     </p>
-                                <form action="{{ route('casting.store') }}" method="post" enctype="multipart/form-data">
-                                    @csrf
-                                <div class="col-lg-12">
+                                    <div class="our-gallery-campaign">
+                                        <div class="gallery-campaign owl-carousel owl-theme">
+                                            <!-- Latest Shot/Portfolio Single -->
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/1_1.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/1.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/2_2.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/2.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/3_3.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/3.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/4_4.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/4.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/5_5.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/5.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/6_6.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/6.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/7_7.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/7.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/8_8.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/8.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/9_9.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/9.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/10_10.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/10.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/11_11.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/11.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/12_12.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/12.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/13_13.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/13.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/14_14.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/14.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/15_15.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/15.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/16_16.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/16.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/17_17.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/17.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/18_18.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/18.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/19_19.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/19.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/20_20.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/20.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/21_21.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/21.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/22_22.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/22.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/23_23.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/23.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/24_24.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/24.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/25_25.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/25.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/26_26.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/26.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/27_27.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/27.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/28_28.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/28.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/29_29.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/29.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/30_30.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/30.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/31_31.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/31.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/32_32.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/32.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/33_33.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/33.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/34_34.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/34.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/35_35.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/35.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/36_36.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/36.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/37_37.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/37.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/38_38.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/38.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/39_39.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/39.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/40_40.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/40.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/41_41.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/41.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/42_42.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/42.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/43_43.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/43.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/44_44.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/44.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/45_45.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/45.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-single">
+                                                <div class="gallery-image">
+                                                    <img src="{{ asset('img/gallery/results/46_46.jpg') }}" alt="Кадры со объявления рерультатов">
+                                                    <a href="{{ asset('img/gallery/results/46.jpg') }}" class="popup-gallery"><i class="icofont-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- Latest Shot/Portfolio Single -->
+                                        </div>
+                                    </div>
+                                    {{--<form action="{{ route('casting.store') }}" method="post" enctype="multipart/form-data">
+                                        @csrf
+                                    <div class="col-lg-12">
                                     <div class="row">
 
                                             <div class="col-lg-6 col-sm-12">
@@ -225,7 +507,7 @@
 
                                     </div>
                                 </div>
-                                </form>
+                                </form>--}}
                             </div>
                         </div>
                     </div>
